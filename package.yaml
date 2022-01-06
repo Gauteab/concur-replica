@@ -108,3 +108,12 @@ executables:
     dependencies:
     - concur-replica
     - text
+  concur-replica-showcase:
+    main: Main.hs
+    source-dirs: examples/showcase
+    dependencies:
+    - concur-replica
+    - text
+    - wreq
+    - lens
+    - lens-aeson

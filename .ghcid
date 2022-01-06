@@ -1,0 +1,1 @@
+-c "stack repl" -W --restart="package.yaml" examples/showcase/Main.hs -r
