@@ -7,37 +7,37 @@ packages:
 - completed:
     hackage: natural-transformation-0.4@sha256:3a50a8bcea2b331bf17a1755c6c228f85c899c8b2601911c73c4324e84a565b5,2205
     pantry-tree:
-      size: 518
       sha256: 354e74384dc7fc51a3b1021c464d415fb0b522b4b2cbf248379b906e0d9aa8bc
+      size: 518
   original:
     hackage: natural-transformation-0.4
 - completed:
+    commit: 46d2fd3b2c236d573f1d6002eb58cc95b2ba03b9
+    git: https://github.com/pkamenarsky/replica.git
     name: replica
-    version: 0.1.0.0
-    git: https://github.com/pkamenarsky/replica.git
     pantry-tree:
-      size: 1319
       sha256: 2a7438ab731a9e4fa53136abe3889979a35d1047e8ad3843d6a5d60d22979102
-    commit: 46d2fd3b2c236d573f1d6002eb58cc95b2ba03b9
-  original:
-    git: https://github.com/pkamenarsky/replica.git
-    commit: 46d2fd3b2c236d573f1d6002eb58cc95b2ba03b9
-- completed:
-    subdir: concur-core
-    name: concur-core
+      size: 1319
     version: 0.1.0.0
-    git: https://github.com/pkamenarsky/concur.git
-    pantry-tree:
-      size: 728
-      sha256: eabfe92d565da1d364116710507e4b0dbc7ea642863fac41c5456aa46cfd3a5a
-    commit: dc5347b35c79654d58fa95716f425ee7248504fb
   original:
-    subdir: concur-core
-    git: https://github.com/pkamenarsky/concur.git
+    commit: 46d2fd3b2c236d573f1d6002eb58cc95b2ba03b9
+    git: https://github.com/pkamenarsky/replica.git
+- completed:
     commit: dc5347b35c79654d58fa95716f425ee7248504fb
+    git: https://github.com/pkamenarsky/concur.git
+    name: concur-core
+    pantry-tree:
+      sha256: eabfe92d565da1d364116710507e4b0dbc7ea642863fac41c5456aa46cfd3a5a
+      size: 728
+    subdir: concur-core
+    version: 0.1.0.0
+  original:
+    commit: dc5347b35c79654d58fa95716f425ee7248504fb
+    git: https://github.com/pkamenarsky/concur.git
+    subdir: concur-core
 snapshots:
 - completed:
-    size: 586296
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/18.yaml
-    sha256: 63539429076b7ebbab6daa7656cfb079393bf644971156dc349d7c0453694ac2
-  original: lts-18.18
+    sha256: d3ba2e94c3ccbd3da4949243c83b59667c5eb9ffc7646148661c16741bbad1d4
+    size: 643623
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2022/10/11.yaml
+  original: nightly-2022-10-11

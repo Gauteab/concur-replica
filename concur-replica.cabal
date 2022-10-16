@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.4.
+-- This file has been generated from package.yaml by hpack version 0.35.0.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: fc4054d462b3ef4901883c92184079736b8158474ce44714f46ab46b416e7f6f
+-- hash: f5592c334c98afec2fbf17ea5da7937ddcbd4e036d071ae4e6b35271a69fc442
 
 name:           concur-replica
 version:        0.1.0.0
@@ -55,7 +55,7 @@ library
     , wai-websockets
     , warp
     , websockets
-  default-language: Haskell2010
+  default-language: GHC2021
 
 executable concur-replica-calc
   main-is: Main.hs
@@ -80,7 +80,7 @@ executable concur-replica-calc
     , wai-websockets
     , warp
     , websockets
-  default-language: Haskell2010
+  default-language: GHC2021
 
 executable concur-replica-chat
   main-is: Main.hs
@@ -105,7 +105,7 @@ executable concur-replica-chat
     , wai-websockets
     , warp
     , websockets
-  default-language: Haskell2010
+  default-language: GHC2021
 
 executable concur-replica-hilo
   main-is: Main.hs
@@ -131,7 +131,7 @@ executable concur-replica-hilo
     , wai-websockets
     , warp
     , websockets
-  default-language: Haskell2010
+  default-language: GHC2021
 
 executable concur-replica-menu
   main-is: Main.hs
@@ -156,7 +156,7 @@ executable concur-replica-menu
     , wai-websockets
     , warp
     , websockets
-  default-language: Haskell2010
+  default-language: GHC2021
 
 executable concur-replica-misc
   main-is: Main.hs
@@ -181,7 +181,7 @@ executable concur-replica-misc
     , wai-websockets
     , warp
     , websockets
-  default-language: Haskell2010
+  default-language: GHC2021
 
 executable concur-replica-multi-entry
   main-is: Main.hs
@@ -207,7 +207,7 @@ executable concur-replica-multi-entry
     , wai-websockets
     , warp
     , websockets
-  default-language: Haskell2010
+  default-language: GHC2021
 
 executable concur-replica-routing
   main-is: Main.hs
@@ -232,7 +232,7 @@ executable concur-replica-routing
     , wai-websockets
     , warp
     , websockets
-  default-language: Haskell2010
+  default-language: GHC2021
 
 executable concur-replica-select
   main-is: Main.hs
@@ -257,7 +257,7 @@ executable concur-replica-select
     , wai-websockets
     , warp
     , websockets
-  default-language: Haskell2010
+  default-language: GHC2021
 
 executable concur-replica-showcase
   main-is: Main.hs
@@ -287,7 +287,7 @@ executable concur-replica-showcase
     , warp
     , websockets
     , wreq
-  default-language: Haskell2010
+  default-language: GHC2021
 
 executable concur-replica-svg
   main-is: Main.hs
@@ -312,7 +312,7 @@ executable concur-replica-svg
     , wai-websockets
     , warp
     , websockets
-  default-language: Haskell2010
+  default-language: GHC2021
 
 executable concur-replica-website
   main-is: Main.hs
@@ -337,4 +337,4 @@ executable concur-replica-website
     , wai-websockets
     , warp
     , websockets
-  default-language: Haskell2010
+  default-language: GHC2021

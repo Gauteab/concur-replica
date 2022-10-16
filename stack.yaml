@@ -1,15 +1,13 @@
-resolver: lts-18.18
+resolver: nightly-2022-10-11
 packages:
-- .
+  - .
 extra-deps:
-- natural-transformation-0.4
-# - ./vendor/replica
-# - ./vendor/concur-core
-- git: https://github.com/pkamenarsky/replica.git
-  commit: 46d2fd3b2c236d573f1d6002eb58cc95b2ba03b9
-- git: https://github.com/pkamenarsky/concur.git
-  commit: dc5347b35c79654d58fa95716f425ee7248504fb
-  subdirs:
-    - concur-core
+  - natural-transformation-0.4
+  - git: https://github.com/pkamenarsky/replica.git
+    commit: 46d2fd3b2c236d573f1d6002eb58cc95b2ba03b9
+  - git: https://github.com/pkamenarsky/concur.git
+    commit: dc5347b35c79654d58fa95716f425ee7248504fb
+    subdirs:
+      - concur-core
 flags: {}
 extra-package-dbs: []

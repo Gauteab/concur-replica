@@ -7,7 +7,7 @@ import Concur.Replica (HTML, MouseEvent, button, h4, li, onClick, text, ul)
 import Control.Applicative ((<|>))
 import Control.Lens ((^..))
 import Control.Monad.IO.Class (liftIO)
-import Data.Aeson.Lens (AsPrimitive (_String), key, values)
+import Data.Aeson.Lens (_String, key, values)
 import Data.Text (Text, unpack)
 import qualified Network.Wreq as Wreq
 import Prelude hiding (div)
